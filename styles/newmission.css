@@ -1,5 +1,6 @@
 /* Common shared styles */
 body {
+    font-family: 'Inter', sans-serif;
     font-family: 'Merriweather Sans', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
@@ -115,6 +116,7 @@ body {
     font-size: 15px;
     font-weight: 400;
     padding: 15px 100px 0px 120px;
+
 }
 
 .btn-join {
@@ -152,6 +154,7 @@ body {
     color: rgba(7, 2, 17, 0.60);
     font-size: 20px;
     font-weight: 400;
+    font-family: Inter;
 }
 
 .portfolio-info {
@@ -222,6 +225,7 @@ body {
     font-size: 15px;
     font-weight: 300;
     padding: 50px;
+    font-family: Inter;
 }
 
 .email-text {
@@ -242,4 +246,50 @@ body {
     color: #FFF;
     text-transform: capitalize;
     border: none;
+}
+
+/* Footer Section */
+footer {
+    background: black;
+    padding: 100px 150px;
+    color: white;
+}
+
+.footer-address {
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
+    font-size: 20px;
+    font-family: Inter;
+}
+
+.footer-address-1 {
+    max-width: 375px;
+}
+
+.footer-info {
+    display: block;
+}
+
+hr {
+    background: rgba(255, 255, 255, 0.15);
+    width: 1220px;
+    height: 1px;
+    border: none;
+}
+
+.social-links {
+    margin: auto;
+    width: 30%;
+    justify-content: space-between;
+    display: flex;
+
+}
+
+.rights-section {
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
+    font-size: 20px;
+    font-family: Inter;
 }
