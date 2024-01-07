@@ -97,6 +97,7 @@ body {
     justify-content: center; */
     margin: auto;
     margin-top: 50px;
+
 }
 
 .party-heading {
@@ -130,4 +131,115 @@ body {
 .year-img {
     width: 50%;
     padding: 30px;
+}
+
+/* Portfolio Section */
+.portfolio-header {
+    color: #F00;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+.portfolio-header-main {
+    color: #070211;
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.portfolio-para {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.portfolio-info {
+    margin-top: 150px;
+    margin-left: 140px;
+    text-align: left;
+    padding-right: 500px;
+}
+
+.portfolio-img {
+    margin-top: 50px;
+    margin-left: 140px;
+    /* margin-right: 140px; */
+    /* width: 100%; */
+    width: 100px;
+    height: 100px;
+    display: flex;
+    gap: 24px;
+    padding-bottom: 24px;
+    display: block;
+    margin-right: 140px;
+}
+
+.img-row-1 {
+    width: 400px;
+    height: 410px;
+    display: flex;
+    gap: 24px;
+    padding-bottom: 24px;
+}
+
+.img-row-2 {
+    width: 400px;
+    height: 410px;
+    display: flex;
+    gap: 24px;
+    padding-bottom: 24px;
+}
+
+/* subcsribe section */
+.subscribe-section {
+    padding: 100px;
+    background: rgba(255, 0, 0, 0.05);
+    margin-top: 800px;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-radius: 16px;
+    align-content: center;
+    margin-bottom: 50px;
+    text-align: center;
+    height: 400px;
+}
+
+.subs-img {
+    width: 100px;
+    height: 100px;
+}
+
+.subs-header {
+    color: #070211;
+    font-size: 35px;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+
+.subs-para {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 15px;
+    font-weight: 300;
+    padding: 50px;
+}
+
+.email-text {
+    width: 348px;
+    height: 60px;
+    border-radius: 30px 0px 0px 30px;
+    background: #FFF;
+    border: none;
+    color: rgba(7, 2, 17, 0.30);
+}
+
+.email-btn {
+    width: 148px;
+    height: 60px;
+    border-radius: 0px 30px 30px 0px;
+    color: white;
+    background: #F00;
+    color: #FFF;
+    text-transform: capitalize;
+    border: none;
 }
