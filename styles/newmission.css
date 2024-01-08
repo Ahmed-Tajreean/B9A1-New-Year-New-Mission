@@ -135,6 +135,89 @@ body {
     padding: 30px;
 }
 
+/* comming soon styles */
+.div3-section {
+    display: flex;
+    margin-top: 80px;
+}
+
+.coming-soon-section {
+    /* margin-left: 140px; */
+    width: 393px;
+}
+
+.coming-soon-header {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.coming-soon-main-header {
+    color: #070211;
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-left: 90px;
+    padding-left: 10px;
+}
+
+.coming-soon-para {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 105px;
+}
+
+.coming-soon-div {
+    width: 350px;
+    height: 350px;
+    border-radius: 463px;
+    border: 15px solid #F00;
+    margin-right: 120px;
+    margin-left: 120px;
+    justify-content: center;
+}
+
+.img-party {
+    width: 300;
+    height: 310px;
+    padding: 20px;
+    padding-right: 25px;
+    justify-content: center;
+    border-radius: 330px;
+
+}
+
+.year-section {
+    margin-top: 30px;
+}
+
+.year-header {
+    color: #F00;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.year-para {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 15px;
+    width: 196px;
+    text-align: left;
+}
+
+.happy-new-year-img {
+    width: 110px;
+    height: 110px;
+    margin-left: 0px;
+
+}
+
 /* Portfolio Section */
 .portfolio-header {
     color: #F00;
